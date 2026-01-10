@@ -1,0 +1,23 @@
+body{
+    border: 1px solid black;
+    margin: auto;
+    width: 500px;
+    height:auto;
+
+}
+.title{
+    color: orangered;
+    text-transform: uppercase;
+    margin-left:  10px;
+}
+.role{
+    color:#1eff29;
+    margin-left:  10px;
+}
+.introduce {
+    opacity: 0.4;
+    margin-left:  10px;
+}
+.name{
+    margin-left:  10px;  
+}

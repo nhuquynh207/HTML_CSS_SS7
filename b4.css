@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    background-color: rgb(234, 233, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: rgb(28, 221, 255);
+    text-align: center;
+}
+p{
+    text-align:center ;
+}
+div{
+    width: 250px ;
+    padding: 15px;
+    margin: 10px;
+    border:1px solid #ccc;
+    background-color: white;
+    border-radius:10px ;
+}
