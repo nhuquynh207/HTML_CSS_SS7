@@ -1,0 +1,24 @@
+.box{
+    height: 40px;
+    width: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 40px;
+    transition: all 1s ease ;
+}
+.box:hover{
+    background-color: aqua;
+}
+.Transform{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    margin: 20px;
+    transition: transform 1s linear;
+}
+.Transform:hover{
+    transform: scale(0.5);
+    transform: rotate(90deg);
+    transform: translate(100px);
+    transform: skew(10deg);
+}

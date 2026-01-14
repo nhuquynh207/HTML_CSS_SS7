@@ -1,0 +1,122 @@
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.banner {
+    padding: 50px 200px 50px;
+    color: #FFFFFF;
+    background: linear-gradient(to right,#0F2341,#155CB9);
+    overflow: hidden;
+}
+
+.block {
+    opacity: 0.9;
+    z-index: 1;
+
+}
+
+.button-tag {
+    display: inline-block;
+    padding: 15px 10px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 999px;
+    opacity: 0.95;
+    margin: 0 0 12px;
+    background: transparent;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.slogan {
+    font-size: 44px;
+    line-height: 1.15;
+    margin: 0 0 12px;
+
+}
+
+.descreption {
+    margin: 0 0 20px;
+    max-width: 680px;
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.negative {
+    margin-bottom: 22px;
+    
+}
+
+.button-primary {
+    display: inline-block;
+    padding: 20px 20px 16px 17px;
+    border-radius: 999px;
+    border: 1px solid transparent;
+    background: #1a73e8;
+    color: #fff;
+    font-weight: 600;
+    transition: transform 0.25s ease, opacity 0.25s ease, background 0.25s ease;
+}
+.button-primary:first-child:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+.button-primary:last-child:hover{
+    background: #2B4A74;
+}
+
+.overview {
+        max-width: 200px;
+}
+.card{
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 14px 16px;
+    background: rgba(255, 255, 255, 0.08);
+    transition: transform 0.25s ease;
+
+}
+
+
+.count-number {
+    font-size: 25px;
+}
+
+.title {
+    opacity: 0.9;
+    font-size: 15px;
+}
+
+.main {
+}
+
+.services {
+}
+
+.heading {
+}
+
+.serivces-item {
+
+}
+.service-name {
+}
+
+.descreptions {
+}
+
+.descreption-item {
+}
+
+.view-price {
+}
+
+.footer {
+}
+

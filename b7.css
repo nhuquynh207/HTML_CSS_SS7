@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center; /* căn giữa ngang */
+    align-items: center;  
+}
+
+.form {
+    width: 450px;
+    height: auto;
+    border: 1px solid black;
+    padding: 30px 10px 30px;
+
+}
+
+.title {
+    color:#0F766E ;
+    text-align: center;
+}
+
+.field {
+    color:#1B4E4A ;
+    font-weight: bold;
+
+}
+.field input,select,textarea{
+    margin-top: 4px;
+    margin-bottom: 15px;
+    padding: 5px ;
+    width: 99%;
+}
+.field textarea{
+    height:100px ;
+    resize: none;
+}
+
+.button {
+    text-align: center;
+    background-color:#0EA5A4 ;
+    color: white;
+    width:100%;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+}
