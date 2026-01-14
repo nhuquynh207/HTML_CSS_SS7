@@ -42,7 +42,7 @@ body{
 
 }
 
-.descreption {
+.descreption:first-child {
     margin: 0 0 20px;
     max-width: 680px;
     color: rgba(255, 255, 255, 0.88);
@@ -82,6 +82,9 @@ body{
     transition: transform 0.25s ease;
 
 }
+.card:hover{
+    transform: translateY(-4px);
+}
 
 
 .count-number {
@@ -94,29 +97,79 @@ body{
 }
 
 .main {
+    padding-top: 75px;
+    padding-left: 210px;
 }
 
 .services {
+    margin-bottom: 28px;
 }
 
 .heading {
+    margin-bottom: 17px;
+    font-size: 28px;
+}
+
+.descreption {
+    margin: 0;
+    color: #52627a;
 }
 
 .serivces-item {
+    width: min(1100px, 92%);
+    position: relative;
+    background: #ffffff;
+    border: 1px solid #e6eef8;
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 10px 28px rgba(20, 32, 51, 0.08);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    overflow: hidden;
 
 }
+.serivces-item:hover{
+        transform: translateY(-6px);
+        box-shadow: 0 16px 36px rgba(20, 32, 51, 0.14);
+}
 .service-name {
+    font-weight: bolder;
+    margin: 6px 0 8px;
+    
+
+}
+.descreption{
+    margin: 0 0 10px;
+    color: #465a74;
 }
 
 .descreptions {
+    color: #2d3e58;
+    padding-left: 18px;
+    
 }
 
 .descreption-item {
+    display: list-item;
 }
-
+a{
+    text-decoration: none;
+}
 .view-price {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: 700;
+    color: #1a73e8;
+    transition: transform 0.25s ease, opacity 0.25s ease;
+    
+    
 }
 
 .footer {
+    margin-top: 90px;
+    margin-bottom:25px;
+
+}
+.footer p{
+    padding-left: 210px;
 }
 
